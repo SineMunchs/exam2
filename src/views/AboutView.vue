@@ -17,17 +17,19 @@ stroke  about side
 
     <!--DAncer about-->
   <div class="flex flex-row w-full p-6">
-     <div class=" p-4 flex-1">
+    <div class=" p-4 flex-1">
         <div class="grid grid-cols-1 gap-4 mr-10">
           <h3 class="hanken font-extralight text-3xl">(E)motions</h3>
-          <h2 class="hanken font-extralight text-xl">The dancers whirl around each other in intense choreographies, moving with such vigor and passion that the air seems to pulse with their energy. Each dancer has their own solo, a moment in the spotlight that showcases their emotions and feelings in a beautiful and poignant way, drawing us as the audience deeper into their universe.
+          <h2 class="hanken font-extralight text-xl">The dancers whirl around each other in intense choreographies, moving with such <br>vigor and passion that the air seems to pulse with their energy. <br> <br>Each dancer has their own solo, a moment in the spotlight that showcases their <br> emotions and feelings in a beautiful and poignant way, drawing us as the audience deeper into their universe.
           </h2> 
       </div>
     </div>
     <!-- Second Grid Container -->
     <div class=" p-4 flex-1 ml-40 mr-10">
       <div class="grid grid-cols-1 gap-4">
-        <h2 class="hanken font-extralight text-xl mt-6" > <br>We surround the dancers, our senses fully engaged, as the captivating soundtrack envelops us, weaving a rich tapestry of sound that complements every movement. The combination of dynamic dance and evocative music creates an immersive experience, making us feel as though we are part of the performance itself. They each speak their own (body) language, each have their own ethnicity, nationality, and culture. </h2> 
+        <h2 class="hanken font-extralight text-xl mt-6"> 
+          <br>We surround the dancers, our senses fully engaged, as the captivating soundtrack envelops us, weaving a rich tapestry of sound that complements every movement. <br><br>The combination of dynamic dance and evocative music creates an immersive experience, making us feel as though we are part of the performance itself. They each speak their own (body) language, each have their own ethnicity, nationality, and culture. 
+        </h2> 
       </div>
     </div>
   </div>
@@ -37,8 +39,8 @@ stroke  about side
     <!--IMG GRID-->
       <div class="flex flex-row w-full p-6">
     <!-- First Grid Container -->
-    <div class=" p-4 flex-1 ml-15">
-      <div class="grid grid-cols-3 gap-1 mr-20">
+    <div class=" p-4 flex-1 mr-20">
+      <div class="grid grid-cols-3 gap-1">
         <img src="../../public/dancers/dancer.png" alt="Image 1" class="grid-image">
         <img src="../../public/dancers/dancer11.png" alt="Image 2" class="grid-image">
         <img src="../../public/dancers/dancer21.png" alt="Image 3" class="grid-image">
@@ -53,8 +55,8 @@ stroke  about side
       </div>
 
     <!-- Second Grid Container -->
-    <div class=" p-4 flex-1 ml-15 ">
-      <div class="grid grid-cols-3 gap-1 mb-4 ml-20">
+    <div class=" p-4 flex-1 ml-20 ">
+      <div class="grid grid-cols-3 gap-1">
         <img src="../../public/dancers/dancer1.png" alt="Image 11" class="grid-image">
         <img src="../../public/dancers/dancer13.png" alt="Image 12" class="grid-image">
         <img src="../../public/dancers/dancer14.png" alt="Image 13" class="grid-image">
@@ -72,13 +74,14 @@ stroke  about side
   <div class="flex flex-row w-full p-6">
      <div class=" p-4 flex-1">
         <div class="grid grid-cols-1 gap-4 mr-10">
-         <h1 class ="hanken font-extralight text-xl "> "While in battle I’m free, never free to rest" is an explosion of collective strength. It is magic and unpredictability when 10 street dancers meet 14 classical dancers from the renowned Swedish company Cullberg.
+          <h3 class="hanken font-extralight text-3xl">An encounter of unique (body) languages</h3>
+         <h1 class ="hanken font-extralight text-xl "> "While in battle I’m free, never free to rest" is an explosion of collective strength. <br>It is magic and unpredictability when 10 street dancers meet 14 classical dancers from the renowned Swedish company Cullberg.
        <br><br>The Iranian-born choreographer Hooman Sharifi has created a very special encounter between dancers – between people – from vastly different backgrounds. They each speak their own (body) language, each have their own ethnicity, nationality, and culture.
       </h1>
       </div>
     </div>
     <!-- Second Grid Container -->
-    <div class=" p-4 flex-1 ml-40 mr-10">
+    <div class="  p-4 flex-1 ml-40 ">
       <div class="grid grid-cols-1 gap-4">
         <h1 class="hanken font-extralight text-xl "> 
         The title of the performance is a quote from civil rights activist James Baldwin: "While in battle I’m free, never free to rest." Is life a fight for life and death? Or a powerful dance party if only we set our bodies free?<br><br>
@@ -90,16 +93,16 @@ stroke  about side
   
 
     <!--ABOUT Hooman-->
-    <div class="mt-40 flex flex-row w-full p-6">
+    <div class="mt-20 flex flex-row w-full p-6">
     <div class=" p-4 flex-1">
       <div class="grid grid-cols-1 gap-4 mr-5">
         <img src="../../public/images/hooman.jpg" alt="Image 1" class="grid-image">
       </div>
     </div>
     <!-- Second Grid Container -->
-    <div class=" p-4 flex-1 ml-40">
+    <div class=" p-4 flex-1 ml-40 mr-10">
       <div class="grid grid-cols-1 gap-4">
-        <h3 class="hanken font-extralight text-2xl mb-2 mt-10">Hooman Sharifi</h3>
+        <h3 class="hanken font-extralight text-2xl mb-2 mt-16">Hooman Sharifi</h3>
         <h3 class="hanken font-extralight text-xl">
             Born in Tehran in 1973, moved to Norway at 15. He started with hip-hop and later studied classical and modern ballet. Graduating from the Oslo National Academy of the Arts, he <br>focuses on the intersection of dance, theater, and visual arts. <br><br>
             In 2000, he founded Impure Company, creating socially and politically engaged dance works. Sharifi's intense and powerful style examines hierarchies, power, and violence.
@@ -129,7 +132,7 @@ width:100%
 
 .animated-svg {
   position: absolute;
-  top: -10%;
+  top: -5%;
   left: 0%;
   width: 100%;
   height: 100%;
