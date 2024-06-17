@@ -13,9 +13,25 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/ticket"class="z-10 mt-20 mr-11 transform rotate-90 hanken font-light tracking-widest">Ticket</RouterLink>
       </nav>
   
+    
+      <footer class="fixed bottom-0 right-0 mb-40 -mr-10">
+    <img src="../../public/images/icon.svg" alt="HomeView.vue" class="h-7 z-10 transform rotate-90">
+  </footer>
+
   </header>
 
   <RouterView />
 </template>
 
+<style scoped>
+nav {
+  height: calc(100% - 40px); /* Adjust the height to leave space for the footer */
+  padding-bottom: 40px; /* Add padding to ensure the content doesn't overlap with the footer */
+}
 
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+</style>

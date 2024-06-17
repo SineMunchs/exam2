@@ -59,7 +59,7 @@ onMounted(() => {
         <!--knap-->
         <div class="button-container"></div>
         <router-link to="/ticket">
-          <button class="navigate-button hanken font-light text-4xl underline mt-20 mb-10 hover:text-[#5C442B]">BOOK TICKETS NOW</button>
+          <button class="navigate-button hanken font-light text-4xl underline mt-10 mb-10 hover:text-[#5C442B]">BOOK TICKETS NOW</button>
         </router-link>
       </div>
       <div class="w-1/2 p-4">
@@ -71,7 +71,7 @@ onMounted(() => {
         </div>
       </div>
     </div>
-         <img src="../../public/images/vi ses.svg" alt="HomeView.vue" class="-mr-2 mb-4">
+         <img src="../../public/images/frei.svg" alt="HomeView.vue" class="-mr-2 mt-10">
        </div>
     </div>
 

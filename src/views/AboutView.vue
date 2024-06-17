@@ -115,7 +115,7 @@ stroke  about side
    
 
 <!--Footer-->
-  <img src="../../public/images/vi ses.svg" alt="HomeView.vue" class=" mt-40 -mr-2 mb-4">
+  <img src="../../public/images/frei.svg" alt="HomeView.vue" class=" mt-40 -mr-2 mb-4">
 
 
   <!--page grid -->

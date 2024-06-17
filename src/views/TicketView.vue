@@ -1,4 +1,5 @@
 <template>
+    
     <div class="flex flex-row w-full justify-center items-center">
        <div class="grid border border-black flex-grow m-20 mt-3 w-full relative">
          <div class="p-1">
@@ -20,7 +21,7 @@
            </div>
        </div>
    </div>
-           <img src="../../public/images/vi ses.svg" alt="HomeView.vue" class="-mr-2 mb-4">
+           <img src="../../public/images/frei.svg" alt="HomeView.vue" class="-mr-2 mb-4">
          </div>
          </div>
    </template>
