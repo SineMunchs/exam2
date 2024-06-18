@@ -104,7 +104,7 @@ stroke  about side
     <!-- Second Grid Container -->
     <div class=" p-4 flex-1 ml-40 mr-10">
       <div class="grid grid-cols-1 p-3">
-        <h3 class="hanken font-extralight text-2xl mb-2 mt-16">Hooman Sharifi</h3>
+        <h3 class="hanken font-extralight text-3xl mt-10">Hooman Sharifi</h3>
         <h3 class="hanken font-extralight text-xl">
             Born in Tehran in 1973, moved to Norway at 15. He started with hip-hop and later studied classical and modern ballet. Graduating from the Oslo National Academy of the Arts, he <br>focuses on the intersection of dance, theater, and visual arts. <br><br>
             In 2000, he founded Impure Company, creating socially and politically engaged dance works. Sharifi's intense and powerful style examines hierarchies, power, and violence.
