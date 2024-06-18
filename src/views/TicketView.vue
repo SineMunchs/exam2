@@ -13,8 +13,8 @@
   
   
   
-          <div class="flex space-x-20  mb-40">
-               <div class="border border-black p-20 custom-width text-8xl text-[#5C442B] cursor-pointer hover:text-[#EFB34B]"><a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/e/6656fcdfe820523242408b0f" target="blank">25</a></div>
+          <div class="flex space-x-20 mb-40">
+               <div class="border border-black p-15 custom-width text-8xl text-[#5C442B] cursor-pointer hover:text-[#EFB34B]"><a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/e/6656fcdfe820523242408b0f" target="blank">25</a></div>
                <div class="border border-black p-20 custom-width text-8xl text-[#5C442B] cursor-pointer hover:text-[#EFB34B]"><a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/e/6656fcdfe820523242408b1b" target="blank">27</a></div>
                <div class="border border-black p-20 custom-width text-8xl text-[#5C442B] cursor-pointer hover:text-[#EFB34B]"><a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/e/6656fcdfe820523242408b16" target="blank">26</a></div>
                <div class="border border-black p-20 custom-width text-8xl text-[#5C442B] cursor-pointer hover:text-[#EFB34B]"><a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/e/6656fcdfe820523242408b20" target="blank">28</a></div>
