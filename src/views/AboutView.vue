@@ -1,5 +1,6 @@
 stroke  about side 
 <template>
+
   <!--GRID-->
   <div class="flex flex-row w-full">
     <div class="grid border border-black flex-grow m-20 mt-3 w-full relative">
