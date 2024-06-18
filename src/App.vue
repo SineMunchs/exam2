@@ -10,10 +10,9 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/about"class="z-10 mt-20 mr-11 transform rotate-90 hanken font-light tracking-widest">About</RouterLink>
         <RouterLink to="/ticket"class="z-10 mt-20 mr-11 transform rotate-90 hanken font-light tracking-widest">Ticket</RouterLink>
       </nav>
-      <div>
-      
+    
       <img src="../../public/afsender.png" alt="HomeView.vue" class="h-6 ml-20 mt-4">
-    </div>
+  
     
       <footer class="fixed bottom-0 right-0 mb-40 -mr-10">
     <img src="../../public/icon.svg" alt="HomeView.vue" class="h-7 z-10 transform rotate-90">
