@@ -2,6 +2,7 @@
 import { ref, onMounted, watch } from 'vue';
 
 const thickness = ref(60); // Initial thickness
+const strokeColor = ref('#E6B45D'); // Initial stroke color
 
 onMounted(() => {
   const videoContainer1 = document.querySelector('.video-container-1');
@@ -24,26 +25,38 @@ onMounted(() => {
     document.querySelectorAll('.path-3').forEach(path => path.style.strokeWidth = `${newThickness / 3}px`);
     document.querySelectorAll('.path-1').forEach(path => path.style.strokeWidth = `${newThickness / 6}px`);
   });
+
+  watch(strokeColor, (newColor) => {
+    document.querySelectorAll('.path').forEach(path => path.style.stroke = newColor);
+    document.querySelectorAll('.path-3').forEach(path => path.style.stroke = newColor);
+    document.querySelectorAll('.path-1').forEach(path => path.style.stroke = newColor);
+  });
 });
 
 const handleThicknessChange = (event) => {
   thickness.value = event.target.value;
 };
+
+const handleColorChange = (event) => {
+  strokeColor.value = event.target.value;
+};
 </script>
 
 
 
+
 <template>
-    <header>      <img src="../../public/afsender.png" alt="HomeView.vue" class="h-6 ml-20 mt-4">
-    </header>
-      <div class="flex flex-row w-full">
+  <header>
+    <img src="../../public/afsender.png" alt="HomeView.vue" class="h-6 ml-20 mt-4">
+  </header>
+  <div class="flex flex-row w-full">
     <div class="grid border border-black flex-grow m-20 mt-3 w-full relative">
       <div class="p-1">
         <img src="../../public/images/never.svg" alt="HomeView.vue" class="-mr-2 mb-4">
       </div>
 
       <!-- Video 1 -->
-      <div class="video-container video-container-1 flex flex-row" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+      <div class="video-container video-container-1 flex flex-row">
         <video ref="video1" class="mt-40 mb-20 ml-40 p-3 flex-row" loop muted>
           <source src="../../video/dans.mp4" type="video/mp4">
         </video>
@@ -86,11 +99,17 @@ const handleThicknessChange = (event) => {
     </div>
   </div>
 
-  <!-- Slider to control SVG stroke thickness -->
-  <div class="thickness-slider hanken font-light text-xl" >
-    <label for="thickness">Stroke: </label>
-    <input type="range" id="thickness" min="1" max="100" v-model="thickness" @input="handleThicknessChange">
-    <span>{{ thickness }} px</span>
+  <!-- Control Panel for SVG customization -->
+  <div class="control-panel hanken font-light text-xl">
+    <div class="thickness-slider">
+      <label for="thickness">Stroke Thickness:</label>
+      <input type="range" id="thickness" min="1" max="100" v-model="thickness" @input="handleThicknessChange">
+      <span>{{ thickness }} px</span>
+    </div>
+    <div class="color-picker">
+      <label for="strokeColor">Stroke Color:</label>
+      <input type="color" id="strokeColor" v-model="strokeColor" @input="handleColorChange">
+    </div>
   </div>
 </template>
 
@@ -117,8 +136,8 @@ const handleThicknessChange = (event) => {
 
 .path {
   fill: none;
-  stroke: #E6B45D;
-  stroke-width: 60px;
+  stroke: var(--stroke-color, #E6B45D); /* Using CSS variable */
+  stroke-width: var(--stroke-width, 60px); /* Using CSS variable */
   stroke-dasharray: 9000;
   stroke-dashoffset: 9000;
   transition: stroke-dashoffset 1s ease-in;
@@ -126,7 +145,7 @@ const handleThicknessChange = (event) => {
 
 .path-3 {
   fill: none;
-  stroke: #E6B45D;
+  stroke: var(--stroke-color, #E6B45D); /* Using CSS variable */
   stroke-width: 20px;
   stroke-dasharray: 9000;
   stroke-dashoffset: 9000;
@@ -135,7 +154,7 @@ const handleThicknessChange = (event) => {
 
 .path-1 {
   fill: none;
-  stroke: #E6B45D;
+  stroke: var(--stroke-color, #E6B45D); /* Using CSS variable */
   stroke-width: 10px;
   stroke-dasharray: 9000;
   stroke-dashoffset: 9000;
@@ -176,7 +195,7 @@ const handleThicknessChange = (event) => {
   transition: stroke-dashoffset 10s linear;
 }
 
-.thickness-slider {
+.control-panel {
   position: fixed;
   bottom: 20px;
   left: 20px;
@@ -187,7 +206,12 @@ const handleThicknessChange = (event) => {
   border-radius: 5px;
 }
 
-.thickness-slider label {
+.thickness-slider, .color-picker {
+  margin-bottom: 10px;
+}
+
+.thickness-slider label, .color-picker label {
   margin-right: 10px;
 }
 </style>
+
