@@ -58,7 +58,7 @@ const handleColorChange = (event) => {
       <!-- Video 1 -->
       <div class="video-container video-container-1 flex flex-row">
         <video ref="video1" class="mt-40 mb-20 ml-40 p-3 flex-row" loop muted>
-          <source src="../../video/dans.mp4" type="video/mp4">
+          <source src="../..//video/dans.mp4" type="video/mp4">
         </video>
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6057.34 2747.49" class="animated-svg">
           <path class="cls-3 path" d="m-37.5,261c215.84-73.13,567.46,129.92,1131.23,406.92,881.35,433.05,1039.92,330.48,1176.63,93.21,717.97-1246.09,1515.41,851.11,1773.19-402.94,193.36-940.66,591.89,892.12,2013.95,1901.81"/>
