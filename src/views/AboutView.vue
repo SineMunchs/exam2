@@ -1,6 +1,7 @@
 stroke  about side 
 <template>
-
+<header>      <img src="../../public/afsender.png" alt="HomeView.vue" class="h-6 ml-20 mt-4">
+</header>
   <!--GRID-->
   <div class="flex flex-row w-full">
     <div class="grid border border-black flex-grow m-20 mt-3 w-full relative">

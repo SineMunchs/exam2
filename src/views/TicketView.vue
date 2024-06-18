@@ -1,5 +1,6 @@
 <template>
-    
+    <header>      <img src="../../public/afsender.png" alt="HomeView.vue" class="h-6 ml-20 mt-4">
+</header>
     <div class="flex flex-row w-full justify-center items-center">
        <div class="grid border border-black flex-grow m-20 mt-3 w-full relative">
          <div class="p-1">
