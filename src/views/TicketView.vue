@@ -11,7 +11,7 @@
                         <p class="hanken font-light text-3xl">Blågårds Plads Cph N ____ 7:30pm 25 - 29/06 2024</p>
                     </div>
 
-                    <div class="flex justify-center space-x-10 m-4 mb-40">
+                    <div class="flex justify-center space-x-4 m-2 mb-40">
                         <div class="border border-black p-20 custom-width text-7xl text-[#5C442B] cursor-pointer hover:text-[#EFB34B]">
                             <a href="https://www.eventim-light.com/dk/a/6268ebc70e2f6b59c13b0fac/e/6656fcdfe820523242408b0f" target="blank">25</a>
                         </div>
