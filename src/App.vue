@@ -15,7 +15,7 @@ import { RouterLink, RouterView } from 'vue-router'
   
     
       <footer class="fixed bottom-0 right-0 mb-40 -mr-10">
-    <img src="../../public/images/icon.svg" alt="HomeView.vue" class="h-7 z-10 transform rotate-90">
+    <img src="../../public/icon.svg" alt="HomeView.vue" class="h-7 z-10 transform rotate-90">
   </footer>
 
   </header>
