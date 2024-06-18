@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div>
-      <img src="../../public/images/afsender.png" alt="HomeView.vue" class="h-6 ml-20 mt-4">
+      <img src="../../public/afsender.png" alt="HomeView.vue" class="h-6 ml-20 mt-4">
     </div>
       <nav class="fixed top-0 right-0 flex flex-col mt-12 -mr-11 font-bold text-black text-2xl">
         <RouterLink to="/" class=" z-10 mt-12 mr-11 transform rotate-90 hanken font-light tracking-widest">Home</RouterLink>
