@@ -96,9 +96,9 @@
   
 
     <!--ABOUT Hooman-->
-    <div class="mt-60 flex flex-row w-full p-6">
+    <div class="flex flex-row w-full p-6">
     <div class=" p-4 flex-1">
-      <div class="grid grid-cols-1 gap-4 mr-5">
+      <div class="grid grid-cols-1 mr-5">
         <img src="../../public/images/hooman.jpg" alt="Image 1" class="grid-image">
       </div>
     </div>
