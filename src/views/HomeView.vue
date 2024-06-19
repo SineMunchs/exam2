@@ -67,7 +67,7 @@ const handleColorChange = (event) => {
         </svg>
         <div class="m-auto">
           <h1 class=" hanken font-extralight text-2xl">BLÅGÅRDS PLADS CPH N_____07:30pm 25 - 29/6 2024</h1>
-          <h1 class=" hanken font-extralight text-6xl">While in Battle I'm Free</h1>
+          <h1 class=" hanken font-extralight text-6xl">While in Battle I'm Free,</h1>
           <h1 class="hanken font-extralight text-6xl">Never Free to Rest</h1>
         </div>
       </div>
