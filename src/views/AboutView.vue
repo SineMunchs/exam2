@@ -22,7 +22,7 @@
   <div class="flex flex-row w-full p-6">
     <div class=" p-4 flex-1">
         <div class="grid grid-cols-1 gap-4 mr-10">
-          <h3 class="hanken font-extralight text-3xl">(E)motions</h3>
+          <h3 class="hanken font-extralight text-2xl">(E)motions</h3>
           <h2 class="hanken font-extralight text-xl">The dancers whirl around each other in intense choreographies, moving with such <br>vigor and passion that the air seems to pulse with their energy. <br> <br>Each dancer has their own solo, a moment in the spotlight that showcases their emotions and feelings in a beautiful and poignant way, drawing us as the audience deeper into their universe.
           <br><br>The combination of dynamic dance and evocative music creates an immersive experience, making us feel as though we are part of the performance itself. They each speak their own (body) language, each have their own ethnicity, nationality, and culture.
           </h2> 
@@ -31,7 +31,7 @@
     <!-- Second Grid Container -->
     <div class=" p-4 flex-1 ml-40 mr-10">
       <div class="grid grid-cols-1 gap-4">
-        <h2 class="hanken font-extralight text-4xl ml-12 mt-20"> 
+        <h2 class="hanken font-extralight text-3xl ml-12 mt-20"> 
           "..They each speak their own (body) language, each have their own feelings, ethnicity, nationality, and culture."
         </h2> 
       </div>
@@ -78,14 +78,14 @@
   <div class="flex flex-row w-full p-6">
      <div class=" p-4 flex-1">
         <div class="grid grid-cols-1 gap-4 mr-10">
-         <h1 class ="hanken font-extralight text-4xl mt-20 "> "..is an explosion of collective strength. It is magic and unpredictability when 10 street dancers meet 10 classical dancers from the renowned Swedish company Cullberg."
+         <h1 class ="hanken font-extralight text-3xl mt-20 "> "..is an explosion of collective strength. It is magic and unpredictability when 10 street dancers meet 10 classical dancers from the renowned Swedish company Cullberg."
       </h1>
       </div>
     </div>
     <!-- Second Grid Container -->
     <div class="  p-4 flex-1 ml-40 ">
       <div class="grid grid-cols-1 gap-4">
-        <h3 class="hanken font-extralight text-3xl">Are We Never Free?</h3>
+        <h3 class="hanken font-extralight text-2xl">Are We Never Free?</h3>
         <h1 class="hanken font-extralight text-xl "> 
         The title of the performance is a quote from civil rights activist James Baldwin: "While in battle I’m free, never free to rest." Is life a fight for life and death? Or a powerful dance party if only we set our bodies free?<br><br>
         For the uncompromising choreographer Sharifi, art is always political. In a time of conflict, where groups clash, fight, and go to war, he presents a masterpiece about the transformative power of the collective. It shows how new possibilities arise from our differences if we make room for them. It reflects on how we all struggle to be free in the world – together, but with our own voices.
@@ -96,7 +96,7 @@
   
 
     <!--ABOUT Hooman-->
-    <div class="flex flex-row w-full p-6">
+    <div class="flex flex-row w-full p-6 mt-20">
     <div class=" p-4 flex-1">
       <div class="grid grid-cols-1 mr-5">
         <img src="../../public/images/hooman.jpg" alt="Image 1" class="grid-image">
@@ -105,7 +105,7 @@
     <!-- Second Grid Container -->
     <div class=" p-4 flex-1 ml-40 mr-10">
       <div class="grid grid-cols-1 p-3">
-        <h3 class="hanken font-extralight text-3xl">Hooman Sharifi</h3>
+        <h3 class="hanken font-extralight text-2xl">Hooman Sharifi</h3>
         <h3 class="hanken font-extralight text-xl">
             Born in Tehran in 1973, moved to Norway at 15. He started with hip-hop and later studied classical and modern ballet. Graduating from the Oslo National Academy of the Arts, he <br>focuses on the intersection of dance, theater, and visual arts. <br><br>
             In 2000, he founded Impure Company, creating socially and politically engaged dance works. Sharifi's intense and powerful style examines hierarchies, power, and violence.
