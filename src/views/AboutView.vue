@@ -23,9 +23,11 @@
     <div class=" p-4 flex-1">
         <div class="grid grid-cols-1 gap-4 mr-10">
           <h3 class="hanken font-extralight text-2xl">(E)motions</h3>
-          <h2 class="hanken font-extralight text-xl">The dancers whirl around each other in intense choreographies, moving with such <br>vigor and passion that the air seems to pulse with their energy. <br> <br>Each dancer has their own solo, a moment in the spotlight that showcases their emotions and feelings in a beautiful and poignant way, drawing us as the audience deeper into their universe.
-          <br><br>The combination of dynamic dance and evocative music creates an immersive experience, making us feel as though we are part of the performance itself. They each speak their own (body) language, each have their own ethnicity, nationality, and culture.
-          </h2> 
+          <h2 class="hanken font-extralight text-xl">The dancers whirl in intense choreographies, moving with such vigor and passion that the air pulses with their energy.
+
+Each dancer has a solo, showcasing their emotions and feelings beautifully, drawing the audience deeper into their universe.
+
+<br><br>Dynamic dance and evocative music create an immersive experience, making us feel part of the performance. Each dancer speaks their own (body) language, representing their unique ethnicity, nationality, and culture. </h2> 
       </div>
     </div>
     <!-- Second Grid Container -->
