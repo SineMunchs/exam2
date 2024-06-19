@@ -1,4 +1,3 @@
-stroke  about side 
 <template>
 <header>      <img src="../../public/afsender.png" alt="HomeView.vue" class="h-6 ml-20 mt-4">
 </header>
@@ -17,6 +16,8 @@ stroke  about side
              <!--hide never : "m20.6,12c-213.77,532.07,416.34-2.02,412.36,320.43"-->
     </div>
 
+
+
     <!--DAncer about-->
   <div class="flex flex-row w-full p-6">
     <div class=" p-4 flex-1">
@@ -30,7 +31,7 @@ stroke  about side
     <!-- Second Grid Container -->
     <div class=" p-4 flex-1 ml-40 mr-10">
       <div class="grid grid-cols-1 gap-4">
-        <h2 class="hanken font-extralight text-5xl ml-12 mt-20"> 
+        <h2 class="hanken font-extralight text-4xl ml-12 mt-20"> 
           "..They each speak their own (body) language, each have their own feelings, ethnicity, nationality, and culture."
         </h2> 
       </div>
@@ -53,7 +54,7 @@ stroke  about side
         <img src="../../public/dancers/dancer6.png" alt="Image 7" class="grid-image">
         <img src="../../public/dancers/dancer10.png" alt="Image 8" class="grid-image">
         <img src="../../public/dancers/dancer8.png" alt="Image 9" class="grid-image">
-        <img src="../../public/dancers/dancer20.png" alt="Image 9" class="grid-image">
+        
       </div>
       </div>
 
@@ -69,7 +70,7 @@ stroke  about side
         <img src="../../public/dancers/dancer18.png" alt="Image 17" class="grid-image">
         <img src="../../public/dancers/dancer19.png" alt="Image 18" class="grid-image">
         <img src="../../public/dancers/dancer20.png" alt="Image 19" class="grid-image">
-        <img src="../../public/dancers/dancer2.png" alt="Image 20" class="grid-image">
+        
       </div>
       </div>
   </div>
@@ -77,7 +78,7 @@ stroke  about side
   <div class="flex flex-row w-full p-6">
      <div class=" p-4 flex-1">
         <div class="grid grid-cols-1 gap-4 mr-10">
-         <h1 class ="hanken font-extralight text-4xl mt-20 "> "..is an explosion of collective strength. It is magic and unpredictability when 10 street dancers meet 14 classical dancers from the renowned Swedish company Cullberg."
+         <h1 class ="hanken font-extralight text-4xl mt-20 "> "..is an explosion of collective strength. It is magic and unpredictability when 10 street dancers meet 10 classical dancers from the renowned Swedish company Cullberg."
       </h1>
       </div>
     </div>
@@ -95,7 +96,7 @@ stroke  about side
   
 
     <!--ABOUT Hooman-->
-    <div class="mt-20 flex flex-row w-full p-6">
+    <div class="mt-60 flex flex-row w-full p-6">
     <div class=" p-4 flex-1">
       <div class="grid grid-cols-1 gap-4 mr-5">
         <img src="../../public/images/hooman.jpg" alt="Image 1" class="grid-image">
@@ -121,7 +122,7 @@ stroke  about side
 
   <!--page grid -->
     </div>
-    </div>   
+    </div> 
 </template>
 
 
