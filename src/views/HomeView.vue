@@ -57,7 +57,7 @@ const handleColorChange = (event) => {
 
       <!-- Video 1 -->
       <div class="video-container video-container-1 flex flex-row">
-        <video ref="video1" class="mt-40 mb-20 ml-40 p-3 flex-row" loop muted>
+        <video ref="video1" class=" h-15 mt-40 mb-20 ml-40 flex-row" loop muted>
           <source src="../../public/dans.mp4" type="video/mp4">
         </video>
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6057.34 2747.49" class="animated-svg">
@@ -66,9 +66,9 @@ const handleColorChange = (event) => {
           <path class="cls-2 path path-1" d="m.5,801c215.84-73.13,599.91,120.73,1163.68,397.73,881.35,433.05,1039.92,330.48,1176.63,93.21,717.97-1246.09,1515.41,851.11,1773.19-402.94,193.36-940.66,961.01,1129.5,1937.51,1793"/>
         </svg>
         <div class="m-auto">
-          <h1 class=" hanken font-light text-2xl">BLÅGÅRDS PLADS CPH N_____07:30pm 25 - 29/6 2024</h1>
-          <h1 class=" hanken font-light text-6xl">While in Battle I'm Free</h1>
-          <h1 class="flex hanken font-light text-6xl">Never Free to Rest</h1>
+          <h1 class=" hanken font-extralight text-2xl">BLÅGÅRDS PLADS CPH N_____07:30pm 25 - 29/6 2024</h1>
+          <h1 class=" hanken font-extralight text-6xl">While in Battle I'm Free</h1>
+          <h1 class="hanken font-extralight text-6xl">Never Free to Rest</h1>
         </div>
       </div>
     
