@@ -67,23 +67,23 @@ const handleColorChange = (event) => {
         </svg>
         <div class="m-auto">
           <h1 class=" hanken font-light text-2xl">BLÅGÅRDS PLADS CPH N_____07:30pm 25 - 29/6 2024</h1>
-          <h1 class=" hanken font-light text-7xl">While in Battle I'm Free</h1>
-          <h1 class="flex hanken font-light text-7xl">Never Free to Rest</h1>
+          <h1 class=" hanken font-light text-6xl">While in Battle I'm Free</h1>
+          <h1 class="flex hanken font-light text-6xl">Never Free to Rest</h1>
         </div>
       </div>
     
-      <div class=" hanken font-extralight text-4xl flex flex-col w-full mt-20">
+      <div class=" hanken font-extralight text-2xl flex flex-col w-full mt-20">
         <div class="flex flex-row w-full">
           <div class="ml-40 w-1/2 p-4">
             <p> Choreography:<br>Hooman Sharifi<br>
             Musik & sound design: <br>Neda Sanai
-            <br>Light: <br>David Prokopi?, Hooman Sharifi
+            <br>Light: <br>David Prokopi, Hooman Sharifi
             <br>Costume: <br>Hooman Sharifi, Marita Tjärnström
-            <br>Poets: <br>BAM - Burcu Sahin, Athena Farrokhzad, Merima Dizdarevi?
+            <br>Poets: <br>BAM - Burcu Sahin, Athena Farrokhzad, <br>Merima Dizdarevi
             <br>Rehearsal leader: <br>Agnieszka Dlugoszewska
             <br>Project advisor: <br>Niki Tsappos</p>
             <router-link to="/ticket">
-              <button class="navigate-button hanken font-light text-4xl underline mt-20 mb-10 hover:text-[#5C442B]">BOOK TICKETS NOW</button>
+              <button class="navigate-button hanken font-light text-2xl underline mt-20 mb-10 hover:text-[#5C442B]">BOOK TICKETS NOW</button>
             </router-link>
           </div>
           <div class="w-1/2 p-4">
