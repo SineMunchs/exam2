@@ -42,11 +42,8 @@ const handleColorChange = (event) => {
 };
 </script>
 
-
-
-
 <template>
-  <header>
+ <header>
     <img src="../../public/afsender.png" alt="HomeView.vue" class="h-6 ml-20 mt-4">
   </header>
   <div class="flex flex-row w-full">
@@ -56,8 +53,8 @@ const handleColorChange = (event) => {
       </div>
 
       <!-- Video 1 -->
-      <div class="video-container video-container-1 flex flex-row">
-        <video ref="video1" class="mt-40 mb-20 ml-40 p-3 flex-row" loop muted>
+      <div class="video-container video-container-1 flex flex-col lg:flex-row items-start">
+        <video ref="video1" class="mt-4 lg:mt-20 mb-4 lg:mb-20 ml-4 lg:ml-40 p-3" loop muted>
           <source src="../../public/dans.mp4" type="video/mp4">
         </video>
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6057.34 2747.49" class="animated-svg">
@@ -65,17 +62,17 @@ const handleColorChange = (event) => {
           <path class="cls-1 path path-3" d="m-18.5,531c215.84-73.13,583.69,125.32,1147.46,402.33,881.35,433.05,1039.92,330.48,1176.63,93.21,717.97-1246.09,1515.41,851.11,1773.19-402.94,193.36-940.66,776.45,1010.81,1975.73,1847.4"/>
           <path class="cls-2 path path-1" d="m.5,801c215.84-73.13,599.91,120.73,1163.68,397.73,881.35,433.05,1039.92,330.48,1176.63,93.21,717.97-1246.09,1515.41,851.11,1773.19-402.94,193.36-940.66,961.01,1129.5,1937.51,1793"/>
         </svg>
-        <div class="m-auto">
-          <h1 class=" hanken font-light text-2xl">BLÅGÅRDS PLADS CPH N_____07:30pm 25 - 29/6 2024</h1>
-          <h1 class=" hanken font-light text-7xl">While in Battle I'm Free</h1>
-          <h1 class="flex hanken font-light text-7xl">Never Free to Rest</h1>
+        <div class="m-auto text-center lg:text-left">
+          <h1 class="hanken font-light text-2xl">BLÅGÅRDS PLADS CPH N_____07:30pm 25 - 29/6 2024</h1>
+          <h1 class="hanken font-light text-4xl lg:text-7xl">While in Battle I'm Free</h1>
+          <h1 class="flex hanken font-light text-4xl lg:text-7xl">Never Free to Rest</h1>
         </div>
       </div>
     
-      <div class=" hanken font-extralight text-4xl flex flex-col w-full p-10 mt-20">
-        <div class="flex flex-row w-full">
-          <div class=" ml-40 w-1/2 p-4">
-            <p> Choreography:<br>Hooman Sharifi<br>
+      <div class="hanken font-extralight text-2xl lg:text-4xl flex flex-col w-full mt-10 lg:mt-20">
+        <div class="flex flex-col lg:flex-row w-full items-start">
+          <div class="lg:ml-40 w-full lg:w-1/2 p-2 lg:p-4">
+            <p>Choreography:<br>Hooman Sharifi<br>
             Musik & sound design: <br>Neda Sanai
             <br>Light: <br>David Prokopi?, Hooman Sharifi
             <br>Costume: <br>Hooman Sharifi, Marita Tjärnström
@@ -83,10 +80,10 @@ const handleColorChange = (event) => {
             <br>Rehearsal leader: <br>Agnieszka Dlugoszewska
             <br>Project advisor: <br>Niki Tsappos</p>
             <router-link to="/ticket">
-              <button class="navigate-button hanken font-light text-4xl underline mt-10 mb-10 hover:text-[#5C442B]">BOOK TICKETS NOW</button>
+              <button class="navigate-button hanken font-light text-2xl lg:text-4xl underline mt-4 lg:mt-10 mb-4 lg:mb-10 hover:text-[#5C442B]">BOOK TICKETS NOW</button>
             </router-link>
           </div>
-          <div class="w-1/2 p-4">
+          <div class="w-full lg:w-1/2 p-2 lg:p-4">
             <p class="p-2">Dancers: Afra Hosseini Kaladjahi,<br> Ama Kyei, Anand Bolder, <br>Anastasija Olescuka,
               Andreas <br>Sanchez, Anna Fitoussi, Camille <br> Prieux, Chiara Gilioli, <br>Eleanor Campbell,
               Elin Hallqvist, <br>Eliott Marmouset, Eszter <br>Czédulás, Freddy Houndekindo, <br>Gloria Kapako,
@@ -100,19 +97,18 @@ const handleColorChange = (event) => {
   </div>
 
   <!-- Control Panel for SVG customization -->
-  <div class="control-panel hanken font-light text-xl">
-    <div class="thickness-slider">
-      <label for="thickness">Stroke Thickness:</label>
-      <input type="range" id="thickness" min="1" max="100" v-model="thickness" @input="handleThicknessChange">
-      <span>{{ thickness }} px</span>
+  <div class="control-panel hanken font-light text-sm shadow-lg rounded-lg p-2 bg-white border border-gray-200 fixed bottom-4 left-4">
+    <div class="thickness-slider mb-2">
+      <label for="thickness" class="block mb-1">Stroke Thickness:</label>
+      <input type="range" id="thickness" min="1" max="100" v-model="thickness" @input="handleThicknessChange" class="w-full">
+      <span class="block mt-1 text-center">{{ thickness }} px</span>
     </div>
     <div class="color-picker">
-      <label for="strokeColor">Stroke Color:</label>
-      <input type="color" id="strokeColor" v-model="strokeColor" @input="handleColorChange">
+      <label for="strokeColor" class="block mb-1">Stroke Color:</label>
+      <input type="color" id="strokeColor" v-model="strokeColor" @input="handleColorChange" class="w-full h-8 p-1 border rounded">
     </div>
   </div>
 </template>
-
 
 <style scoped>
 .video-container {
@@ -120,8 +116,14 @@ const handleColorChange = (event) => {
 }
 
 .video-container video {
-  width: 40%;
+  width: 100%;
   height: auto;
+}
+
+@media (min-width: 1024px) {
+  .video-container video {
+    width: 40%;
+  }
 }
 
 .animated-svg {
@@ -196,22 +198,23 @@ const handleColorChange = (event) => {
 }
 
 .control-panel {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  z-index: 1000;
-  background: #ffffff;
-  padding: 10px;
-  border: 1px solid #EFB34A;
-  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
-.thickness-slider, .color-picker {
-  margin-bottom: 10px;
+.thickness-slider,
+.color-picker {
+  margin-bottom: 5px;
 }
 
-.thickness-slider label, .color-picker label {
-  margin-right: 10px;
+.thickness-slider label,
+.color-picker label {
+  margin-right: 5px;
+}
+
+.thickness-slider input,
+.color-picker input {
+  display: block;
+  width: 100%;
 }
 </style>
-
