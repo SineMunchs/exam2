@@ -98,7 +98,7 @@ Each dancer has a solo, showcasing their emotions and feelings beautifully, draw
   
 
     <!--ABOUT Hooman-->
-    <div class="flex flex-row w-full p-6 mt-20">
+    <div class="flex flex-row w-full p-6 mt-10">
     <div class=" p-4 flex-1">
       <div class="grid grid-cols-1 mr-5">
         <img src="../../public/images/hooman.jpg" alt="Image 1" class="grid-image">
