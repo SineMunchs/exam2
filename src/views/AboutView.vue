@@ -80,7 +80,7 @@ Each dancer has a solo, showcasing their emotions and feelings beautifully, draw
   <div class="flex flex-row w-full p-6">
      <div class=" p-4 flex-1">
         <div class="grid grid-cols-1 gap-4 mr-10">
-         <h1 class ="hanken font-extralight text-3xl mt-20 "> "..is an explosion of collective strength. It is magic and unpredictability when 10 street dancers meet 10 classical dancers from the renowned Swedish company Cullberg."
+         <h1 class ="hanken font-extralight text-3xl mt-10 "> "..is an explosion of collective strength. It is magic and unpredictability when 10 street dancers meet 10 classical dancers from the renowned Swedish company Cullberg."
       </h1>
       </div>
     </div>
