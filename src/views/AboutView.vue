@@ -98,15 +98,15 @@ Each dancer has a solo, showcasing their emotions and feelings beautifully, draw
   
 
     <!--ABOUT Hooman-->
-    <div class="flex flex-row w-full p-6 mt-10">
+    <div class="flex flex-row w-full p-6 mt-20">
     <div class=" p-4 flex-1">
-      <div class="grid grid-cols-1 mr-5">
+      <div class="grid grid-cols-1">
         <img src="../../public/images/hooman.jpg" alt="Image 1" class="grid-image">
       </div>
     </div>
     <!-- Second Grid Container -->
     <div class=" p-4 flex-1 ml-40 mr-10">
-      <div class="grid grid-cols-1 p-3">
+      <div class="grid grid-cols-1 p-3 mt-10">
         <h3 class="hanken font-extralight text-2xl">Hooman Sharifi</h3>
         <h3 class="hanken font-extralight text-xl">
             Born in Tehran in 1973, moved to Norway at 15. He started with hip-hop and later studied classical and modern ballet. Graduating from the Oslo National Academy of the Arts, he <br>focuses on the intersection of dance, theater, and visual arts. <br><br>
